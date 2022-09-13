@@ -1,0 +1,9 @@
+.todo-list {
+  cursor: pointer;
+  font-size: 1.8rem;
+  & li.completed {
+    font-style: italic;
+    color: #ccc;
+    text-decoration: line-through;
+  }
+}
